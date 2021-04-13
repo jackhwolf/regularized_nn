@@ -1,5 +1,5 @@
 import torch
-import torch
+import numpy as np
 
 class Model(torch.nn.Module):
 
@@ -71,7 +71,7 @@ class Model(torch.nn.Module):
         sparsities.append(sperc(self.lin_1.weight[:,:self.r1d]))
         sparsities.append(sperc(self.relu_2.weight))
         sparsities.append(sperc(self.lin_2.weight[:,:self.r2d]))
-        return sparsities
+        return np.round(np.array(sparsities), 3).tolist()
 
     def _tensor(self, a):
         if not isinstance(a, torch.FloatTensor):

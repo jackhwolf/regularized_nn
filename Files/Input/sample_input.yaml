@@ -1,0 +1,12 @@
+# data params
+N: 1000
+tr_sample: 0.8
+
+# model params
+r1d: 20
+l2d: 10
+r1d: 20
+epochs: 100
+lr: 1e-3
+scale: 0.2
+regularization: 1
