@@ -1,12 +1,12 @@
 # data params
 N: 1000                  # data points
-tr_sample: 0.8           # % to train on
+tr_sample: 0.2           # % to train on
 
 # model params
 r1d: 20                  # first layer width
 l2d: 10                  # second layer width
-r1d: 20                  # third layer width
-epochs: 100              # epochs to train for
+r2d: 20                  # third layer width
+epochs: 5              # epochs to train for
 lr: 1e-3                 # learning rate
 scale: 0.2               # scalar for regularization
 regularization: 1        # regularization method
