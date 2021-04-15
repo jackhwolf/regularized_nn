@@ -60,7 +60,7 @@ class Experiment:
         def make_param_text():
             text =  "Parameters:"
             text += f"\n-N: {self.data.N}"
-            text += f"\n-Sample %: {self.data.N}"
+            text += f"\n-Sample %: {self.data.tr_sample}"
             text += f"\n-Architecture: {self.model.r1d}, {self.model.l2d}, {self.model.r2d}"
             text += f"\n-Epochs: {self.model.epochs}"
             text += f"\n-LR: {self.model.lr}"
