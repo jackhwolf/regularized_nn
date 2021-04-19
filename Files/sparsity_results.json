@@ -1,0 +1,855 @@
+[
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 150,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 3727.507508849214,
+                "pred_acc": 0.6992964824120603,
+                "sparsity": [
+                    0.455,
+                    0.494,
+                    0.501,
+                    0.48
+                ]
+            },
+            {
+                "pred_sq_err": 3388.398201966001,
+                "pred_acc": 0.7515577889447236,
+                "sparsity": [
+                    0.49,
+                    0.508,
+                    0.501,
+                    0.52
+                ]
+            },
+            {
+                "pred_sq_err": 3096.373438207574,
+                "pred_acc": 0.7744723618090452,
+                "sparsity": [
+                    0.475,
+                    0.508,
+                    0.512,
+                    0.5
+                ]
+            }
+        ],
+        "timestamp": "1618810987.6063704"
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 150,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 3468.7667936778666,
+                "pred_acc": 0.8028140703517588,
+                "sparsity": [
+                    0.53,
+                    0.494,
+                    0.503,
+                    0.46
+                ]
+            },
+            {
+                "pred_sq_err": 2866.94923544666,
+                "pred_acc": 0.8265326633165829,
+                "sparsity": [
+                    0.53,
+                    0.517,
+                    0.485,
+                    0.44
+                ]
+            },
+            {
+                "pred_sq_err": 2627.4918323764136,
+                "pred_acc": 0.8426130653266332,
+                "sparsity": [
+                    0.49,
+                    0.497,
+                    0.501,
+                    0.45
+                ]
+            }
+        ],
+        "timestamp": "1618810997.804097"
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 150,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 4272.341433676216,
+                "pred_acc": 0.8072361809045226,
+                "sparsity": [
+                    0.52,
+                    0.499,
+                    0.507,
+                    0.58
+                ],
+                "sparsity_avg": 0.5265000000000001,
+                "sparsity_sd": 0.03178443015062562
+            },
+            {
+                "pred_sq_err": 2934.333370185761,
+                "pred_acc": 0.9053266331658292,
+                "sparsity": [
+                    0.48,
+                    0.516,
+                    0.485,
+                    0.42
+                ],
+                "sparsity_avg": 0.47524999999999995,
+                "sparsity_sd": 0.03475179851460929
+            },
+            {
+                "pred_sq_err": 2998.2846538559206,
+                "pred_acc": 0.8693467336683417,
+                "sparsity": [
+                    0.47,
+                    0.495,
+                    0.493,
+                    0.52
+                ],
+                "sparsity_avg": 0.4945,
+                "sparsity_sd": 0.017698870020427873
+            }
+        ],
+        "timestamp": "1618811186.6529496"
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 3829.102886638272,
+                "pred_acc": 0.8203015075376885,
+                "sparsity": [
+                    0.505,
+                    0.48,
+                    0.494,
+                    0.5
+                ],
+                "sparsity_avg": 0.49475,
+                "sparsity_sd": 0.009364160400164028
+            },
+            {
+                "pred_sq_err": 2497.2161037407163,
+                "pred_acc": 0.8950753768844221,
+                "sparsity": [
+                    0.44,
+                    0.501,
+                    0.508,
+                    0.47
+                ],
+                "sparsity_avg": 0.47975,
+                "sparsity_sd": 0.027040478915877214
+            }
+        ],
+        "timestamp": "1618811587.730185"
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 4022.384342841283,
+                "pred_acc": 0.782713567839196,
+                "sparsity": [
+                    0.505,
+                    0.504,
+                    0.503,
+                    0.5
+                ],
+                "sparsity_avg": 0.503,
+                "sparsity_sd": 0.0018708286933869723
+            },
+            {
+                "pred_sq_err": 2525.9590665768205,
+                "pred_acc": 0.8848241206030151,
+                "sparsity": [
+                    0.515,
+                    0.514,
+                    0.509,
+                    0.47
+                ],
+                "sparsity_avg": 0.502,
+                "sparsity_sd": 0.018614510468986302
+            }
+        ],
+        "timestamp": "1618811612.5309396",
+        "plot_path": ""
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 3786.4330797927496,
+                "pred_acc": 0.6263316582914573,
+                "sparsity": [
+                    0.46,
+                    0.504,
+                    0.507,
+                    0.42
+                ],
+                "sparsity_avg": 0.47275,
+                "sparsity_sd": 0.03568875873436901
+            },
+            {
+                "pred_sq_err": 3295.9623622173804,
+                "pred_acc": 0.7246231155778895,
+                "sparsity": [
+                    0.505,
+                    0.496,
+                    0.502,
+                    0.45
+                ],
+                "sparsity_avg": 0.48824999999999996,
+                "sparsity_sd": 0.02232011424701943
+            }
+        ],
+        "timestamp": "1618811771.8853862",
+        "plot_path": ""
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 4459.283752795196,
+                "pred_acc": 0.5139698492462311,
+                "sparsity": [
+                    0.47,
+                    0.489,
+                    0.491,
+                    0.49
+                ],
+                "sparsity_avg": 0.485,
+                "sparsity_sd": 0.008689073598491392
+            },
+            {
+                "pred_sq_err": 3974.85643442786,
+                "pred_acc": 0.6908542713567839,
+                "sparsity": [
+                    0.525,
+                    0.493,
+                    0.502,
+                    0.63
+                ],
+                "sparsity_avg": 0.5375,
+                "sparsity_sd": 0.05466488818245218
+            }
+        ],
+        "timestamp": "1618811849.9003384",
+        "plot_path": ""
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 3827.09195852979,
+                "pred_acc": 0.8787939698492462,
+                "sparsity": [
+                    0.49,
+                    0.499,
+                    0.502,
+                    0.49
+                ],
+                "sparsity_avg": 0.49525,
+                "sparsity_sd": 0.005356071321407142
+            },
+            {
+                "pred_sq_err": 3646.763080393587,
+                "pred_acc": 0.7342713567839196,
+                "sparsity": [
+                    0.475,
+                    0.506,
+                    0.504,
+                    0.49
+                ],
+                "sparsity_avg": 0.49374999999999997,
+                "sparsity_sd": 0.012457427503301005
+            }
+        ],
+        "timestamp": "1618812036.5749576",
+        "plot_path": "Files/Plots/1618812036789.png"
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 3823.13919129821,
+                "pred_acc": 0.9013065326633166,
+                "sparsity": [
+                    0.53,
+                    0.496,
+                    0.494,
+                    0.64
+                ],
+                "sparsity_avg": 0.54,
+                "sparsity_sd": 0.05948108943185221
+            },
+            {
+                "pred_sq_err": 2774.9862977481807,
+                "pred_acc": 0.8868341708542714,
+                "sparsity": [
+                    0.545,
+                    0.51,
+                    0.499,
+                    0.57
+                ],
+                "sparsity_avg": 0.531,
+                "sparsity_sd": 0.028204609552340897
+            }
+        ],
+        "timestamp": "1618812404.0568397",
+        "plot_path": "Files/Plots/1618812404264.png"
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 3999.8596839247493,
+                "pred_acc": 0.6840201005025126,
+                "sparsity": [
+                    0.555,
+                    0.499,
+                    0.511,
+                    0.54
+                ],
+                "sparsity_avg": 0.52625,
+                "sparsity_sd": 0.022308910775741625
+            },
+            {
+                "pred_sq_err": 3038.6824808735737,
+                "pred_acc": 0.7813065326633166,
+                "sparsity": [
+                    0.47,
+                    0.494,
+                    0.492,
+                    0.48
+                ],
+                "sparsity_avg": 0.484,
+                "sparsity_sd": 0.009695359714832666
+            }
+        ],
+        "timestamp": "1618812710.5494332",
+        "plot_path": "Files/Plots/1618812710783.png"
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 3728.400921311993,
+                "pred_acc": 0.7139698492462312,
+                "sparsity": [
+                    0.485,
+                    0.496,
+                    0.508,
+                    0.47
+                ],
+                "sparsity_avg": 0.48974999999999996,
+                "sparsity_sd": 0.014006694827831451
+            },
+            {
+                "pred_sq_err": 2997.8876009469755,
+                "pred_acc": 0.8518592964824121,
+                "sparsity": [
+                    0.505,
+                    0.496,
+                    0.502,
+                    0.54
+                ],
+                "sparsity_avg": 0.51075,
+                "sparsity_sd": 0.01719556628901766
+            }
+        ],
+        "timestamp": "1618812876.8336666",
+        "plot_path": "Files/Plots/1618812877051.png"
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 4149.817558250053,
+                "pred_acc": 0.8052261306532663,
+                "sparsity": [
+                    0.45,
+                    0.516,
+                    0.5,
+                    0.53
+                ],
+                "sparsity_avg": 0.499,
+                "sparsity_sd": 0.03021588985947626
+            },
+            {
+                "pred_sq_err": 3706.0144837594944,
+                "pred_acc": 0.76321608040201,
+                "sparsity": [
+                    0.47,
+                    0.496,
+                    0.499,
+                    0.5
+                ],
+                "sparsity_avg": 0.49124999999999996,
+                "sparsity_sd": 0.012356678356257407
+            }
+        ],
+        "timestamp": "1618812915.4291031",
+        "plot_path": "Files/Plots/1618812915645.png"
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 3951.0812667810746,
+                "pred_acc": 0.7161809045226131,
+                "sparsity": [
+                    0.475,
+                    0.497,
+                    0.498,
+                    0.48
+                ],
+                "sparsity_avg": 0.4875,
+                "sparsity_sd": 0.010161200716450797
+            },
+            {
+                "pred_sq_err": 2760.8038675325815,
+                "pred_acc": 0.8522613065326633,
+                "sparsity": [
+                    0.445,
+                    0.491,
+                    0.503,
+                    0.48
+                ],
+                "sparsity_avg": 0.47975,
+                "sparsity_sd": 0.02164919167082226
+            }
+        ],
+        "timestamp": "1618812940.8919446",
+        "plot_path": "Files/Plots/1618812941114.png"
+    }
+][
+    {
+        "params": [
+            {
+                "N": 5000,
+                "epochs": 50,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            },
+            {
+                "N": 5000,
+                "epochs": 100,
+                "experiment": "sparsity",
+                "l2d": 50,
+                "lr": "1e-3",
+                "r1d": 100,
+                "r2d": 100,
+                "regularization": 2,
+                "scale": 0.3,
+                "tr_sample": 0.005
+            }
+        ],
+        "reports": [
+            {
+                "pred_sq_err": 4145.7094683799205,
+                "pred_acc": 0.5103517587939699,
+                "sparsity": [
+                    0.515,
+                    0.503,
+                    0.488,
+                    0.56
+                ],
+                "sparsity_avg": 0.5165,
+                "sparsity_sd": 0.0268747093007534
+            },
+            {
+                "pred_sq_err": 3506.932828804925,
+                "pred_acc": 0.6699497487437186,
+                "sparsity": [
+                    0.515,
+                    0.506,
+                    0.495,
+                    0.54
+                ],
+                "sparsity_avg": 0.514,
+                "sparsity_sd": 0.016598192672697847
+            }
+        ],
+        "timestamp": "1618813030.953303",
+        "plot_path": "Files/Plots/1618813031180.png"
+    }
+]

@@ -31,13 +31,20 @@ class Data:
 
 def sample_graph():
     import matplotlib.pyplot as plt
-    data = Data(5000)
-    fig, ax = plt.subplots()
-    cbar = ax.scatter(data.X[:,0], data.X[:,1], c=data.Y, cmap='bwr')
-    ax.scatter(data.X[data.tr_mask,0], data.X[data.tr_mask,1], marker='x', c='k')
-    fig.colorbar(cbar)
-    ax.set_title("y = sign(x[1] - 0.5*sin(pi*x[0]))")
-    fig.savefig("sample_data.png")
+    n = 500
+    fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
+    path = "sample_data_3d.png"
+    x = np.linspace(-1, 1, n)
+    x, y = np.meshgrid(x, x)
+    x, y = x.flatten(), y.flatten()
+    z = []
+    for i in range(len(x)):
+        z.append(np.sign(y[i] - (0.5*np.sin(np.pi*x[i]))))
+    cbar = ax.plot_surface(x.reshape(n,n), y.reshape(n,n), np.array(z).reshape(n,n), cmap='bwr', linewidth=0, antialiased=False)
+    fig.colorbar(cbar, shrink=0.5, aspect=5)
+    ax.set_title("y = sign(x[1] - 0.5*sin(pi*x))")
+    fig.savefig(path, bbox_inches='tight')
+    return {'plot_path': path}
 
 if __name__ == '__main__':
     sample_graph()

@@ -1,0 +1,214 @@
+[
+    {
+        "timestamp": "1618802890.9292533",
+        "pred_sq_err": 3582.026925564439,
+        "pred_acc": 0.7344723618090452,
+        "sparsity": [
+            0.46,
+            0.493,
+            0.468,
+            0.55
+        ],
+        "plot_path": "Files/Plots/1618802897223.png",
+        "N": 5000,
+        "tr_sample": 0.005,
+        "epochs": 100,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+][
+    {
+        "timestamp": "1618802973.6275032",
+        "pred_sq_err": 3514.327585635676,
+        "pred_acc": 0.7308542713567839,
+        "sparsity": [
+            0.525,
+            0.516,
+            0.519,
+            0.45
+        ],
+        "plot_path": "Files/Plots/1618802979556.png",
+        "N": 5000,
+        "tr_sample": 0.005,
+        "epochs": 100,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+][
+    {
+        "timestamp": "1618803159.6752102",
+        "pred_sq_err": 3655.5052501927703,
+        "pred_acc": 0.8375879396984924,
+        "sparsity": [
+            0.57,
+            0.534,
+            0.473,
+            0.45
+        ],
+        "plot_path": "Files/Plots/1618803160175.png",
+        "N": 5000,
+        "tr_sample": 0.005,
+        "epochs": 100,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+][
+    {
+        "timestamp": "1618803182.840036",
+        "pred_sq_err": 4154.818079257888,
+        "pred_acc": 0.6303517587939699,
+        "sparsity": [
+            0.47,
+            0.513,
+            0.495,
+            0.53
+        ],
+        "plot_path": "Files/Plots/1618803183444.png",
+        "N": 5000,
+        "tr_sample": 0.005,
+        "epochs": 100,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+][
+    {
+        "timestamp": "1618803239.4265192",
+        "pred_sq_err": 4031.805989176882,
+        "pred_acc": 0.5851256281407036,
+        "sparsity": [
+            0.52,
+            0.503,
+            0.498,
+            0.52
+        ],
+        "plot_path": "Files/Plots/1618803239909.png",
+        "N": 5000,
+        "tr_sample": 0.005,
+        "epochs": 100,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+][
+    {
+        "timestamp": "1618803513.6754322",
+        "pred_sq_err": 3390.011629524912,
+        "pred_acc": 0.9123618090452261,
+        "sparsity": [
+            0.455,
+            0.486,
+            0.505,
+            0.5
+        ],
+        "plot_path": "Files/Plots/1618803515843.png",
+        "N": 5000,
+        "tr_sample": 0.005,
+        "epochs": 100,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+][
+    {
+        "timestamp": "1618804773.9663486",
+        "pred_sq_err": 4128.562141658902,
+        "pred_acc": 0.8369849246231156,
+        "sparsity": [
+            0.55,
+            0.487,
+            0.49,
+            0.59
+        ],
+        "plot_path": "Files/Plots/1618804776225.png",
+        "N": 5000,
+        "tr_sample": 0.005,
+        "epochs": 100,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+][
+    {
+        "timestamp": "1618804909.161248",
+        "pred_sq_err": 3340.6654143029887,
+        "pred_acc": 0.878391959798995,
+        "sparsity": [
+            0.505,
+            0.472,
+            0.511,
+            0.51
+        ],
+        "plot_path": "Files/Plots/1618804911255.png",
+        "N": 5000,
+        "tr_sample": 0.005,
+        "epochs": 100,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+][
+    {
+        "timestamp": "1618805020.7091584",
+        "pred_sq_err": 2057.248179728968,
+        "pred_acc": 0.8966315789473684,
+        "sparsity": [
+            0.47,
+            0.508,
+            0.505,
+            0.48
+        ],
+        "plot_path": "Files/Plots/1618805022464.png",
+        "N": 5000,
+        "tr_sample": 0.05,
+        "epochs": 500,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+][
+    {
+        "timestamp": "1618813154.7956812",
+        "pred_sq_err": 2498.185932920708,
+        "pred_acc": 0.8926633165829145,
+        "sparsity": [
+            0.455,
+            0.498,
+            0.502,
+            0.5
+        ],
+        "sparsity_avg": 0.48875,
+        "sparsity_sd": 0.019536824204563027,
+        "plot_path": "Files/Plots/1618813155480.png",
+        "N": 5000,
+        "tr_sample": 0.005,
+        "epochs": 100,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+][
+    {
+        "timestamp": "1618813620.6596963",
+        "pred_sq_err": 3567.0259865085,
+        "pred_acc": 0.7298492462311558,
+        "sparsity": [
+            0.54,
+            0.507,
+            0.503,
+            0.49
+        ],
+        "sparsity_avg": 0.51,
+        "sparsity_sd": 0.018425525772688297,
+        "plot_path": "Files/Plots/1618813621427.png",
+        "N": 5000,
+        "tr_sample": 0.005,
+        "epochs": 100,
+        "lr": 0.001,
+        "scale": 0.6,
+        "regularization": 2
+    }
+]

@@ -65,7 +65,7 @@ class Model(torch.nn.Module):
 
     def sparsity(self):
         threshold = 1e-3
-        sperc = lambda x: ((x < threshold).sum() / x.numel()).detach().numpy().item()
+        sperc = lambda x: ((x < (threshold*x.max())).sum() / x.numel()).detach().numpy().item()
         sparsities = []
         sparsities.append(sperc(self.relu_1.weight))
         sparsities.append(sperc(self.lin_1.weight[:,:self.r1d]))
